@@ -133,7 +133,7 @@ function clearcookies(){
         <span style="color: red; font-weight: bold;">N</span>
         {{end}}
         </td>
-        {{/* This requires additional coding ... <td><a onclick="clearcookies();" href="/{{$.URL}}/ImpersonateFrames?user_id={{.UUID}}" target="_blank" id="code" type="submit" class="btn btn-warning">Impersonate user (beta)</a> */}}
+        <td><a onclick="clearcookies();" href="/{{$.URL}}/ImpersonateFrames?user_id={{.UUID}}" target="_blank" id="code" type="submit" class="btn btn-warning">Impersonate user (beta)</a>
         <td class="text-center"><a  href="/{{$.URL}}/Cookies?user_id={{.UUID}}" target="_blank" id="code" type="submit" class="btn btn-info">View Cookies</a>
 		</td>
 
